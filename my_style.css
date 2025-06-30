@@ -1,0 +1,60 @@
+  .my_title
+  {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+  }
+
+  /* Login form code here */
+  .my_row
+  {
+    height: 100px;
+  }
+  .my_con
+  {
+    background-color: darkblue;
+  }
+  .log_in
+  {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+  }
+  .m1 
+  {
+    margin: 5%;
+  }
+  .t1 
+  {
+    width: 100%;
+    height: 40px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    outline: none;
+  }
+  .my_btn
+  {
+    width: 120px;
+  }
+
+  @media only screen and (max-width: 600px) {
+      .my_login_img 
+      {
+        display: none;
+      }
+       .my_btn
+  {
+    width: 100%;
+  }
+  .my_row
+  {
+    height: 180px;
+  }
+ 
+}
+                   
